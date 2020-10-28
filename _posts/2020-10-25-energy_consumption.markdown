@@ -4,7 +4,7 @@ title:  "Energy in IT!"
 summary: Energy consumption as an important matter in software ingeneering as it is in hardware 
 author: chakib belgaid
 date: '2020-10-25 '
-category: Energy  ict  algorithms , programming languages 
+tags : Energy  ict  algorithms  programming languages 
 ---
 
 # Energy Consumption 

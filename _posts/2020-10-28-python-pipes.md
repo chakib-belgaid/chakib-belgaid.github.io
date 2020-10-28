@@ -4,7 +4,7 @@ title:  "A simple trick that will save you time, and effort . "
 summary: using pipes and redirections from linux to python 
 author: chakib belgaid
 date: '2020-10-27 '
-category: python linux bash 
+tags: python linux bash 
 markdown: kramdown
 ---
 
