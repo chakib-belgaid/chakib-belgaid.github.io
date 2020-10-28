@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Energy in IT!"
+title:  "Software Engineering and Energy"
 summary: Energy consumption as an important matter in software ingeneering as it is in hardware 
 author: chakib belgaid
 date: '2020-10-25 '

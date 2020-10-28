@@ -56,7 +56,7 @@ So if we combine them the result will be :
 As most of statistical work is done now in notebooks, Jupyter offers us a set of magic commands that let us call system functions and plot the result into a variable.
 
 {% highlight Python %}
-stats_files = !find . -name "*.json" 
+stats_files = !(find . -name "*.json")
 {% endhighlight %}
 
 this will give us a list of relative paths as well  and we handle it in the same way as before 
