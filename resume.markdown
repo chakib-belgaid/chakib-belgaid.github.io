@@ -9,12 +9,12 @@ permalink: /resume/
 ## EXPERIENCE 
 
 
-[**INTIRA**, Lille](www.inria.fr/fr/centre-inria-lille-nord-europe) - *PHD Student*
+[**INRIA**, Lille](www.inria.fr/fr/centre-inria-lille-nord-europe) - *PHD Student*
 Jan 2018- PRESENT
 Energy consumption of programing languages 
 
 
-[**University of lille**, Lille](https://www.univ-lille.fr/) — Assistant teacher  
+[**University of Lille**, Lille](https://www.univ-lille.fr/) — Assistant teacher  
 Sep 2019- Augh 2019
 Parallel Computing ( CAR ) for master 
 
@@ -24,7 +24,7 @@ Creation of a startup (Funecs) About serious games(*advertising games*)
 
 ## EDUCATION 
 
-[**University of lille**, Lille](https://www.univ-lille.fr/) — *PHD*
+[**University of Lille**, Lille](https://www.univ-lille.fr/) — *PHD*
 Jan  2018 - PRESENT
 Energy consumption of programming languages.
 
