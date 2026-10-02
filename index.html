@@ -24,8 +24,8 @@
       type="font/woff2"
       crossorigin
     />
-    <script type="module" crossorigin src="/assets/index-BxXrVj8b.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bsw7RDUN.css">
+    <script type="module" crossorigin src="/assets/index-Sgn4bipW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CA0mK0Aw.css">
   </head>
   <body>
     <div id="app">
@@ -44,6 +44,7 @@
           <p class="reading-lede">I’m a product engineer with a Ph.D. in software engineering. I build AI products and developer tools, with a long-running interest in how we measure the energy software uses.</p>
           <p class="stop-line">Product engineer, Ph.D. AI products, developer tools, and how we measure the energy software uses.</p>
           <div class="entry-actions"><a class="primary-action" href="#work">Selected work</a><a class="script-only journey-hidden" href="?view=garden" data-view="garden">Explore the garden</a><a class="script-only journey-only" href="?view=read" data-view="read">Read as a page</a></div>
+          <p class="journey-only journey-hint">Scroll to explore the garden and projects.</p>
           <p class="project-shortcuts"><a href="#whisperbook">Whisperbook</a> · <a href="#wattch">Wattch Core</a></p>
         </div>
         <div class="garden-preview" id="garden-preview">
@@ -64,8 +65,9 @@
           <article class="reading-project" id="whisperbook" data-stop="whisperbook" aria-labelledby="whisperbook-title">
             <div class="project-copy">
               <div class="stop-card"><p class="eyebrow">Local AI on Android</p><h3 id="whisperbook-title" tabindex="-1">Whisperbook</h3>
-                <p class="reading-lede">A book can stay yours, even when it speaks.</p></div>
+                <p class="reading-lede">A book can stay yours, even when it speaks.</p><p class="journey-only project-summary">An Android app that narrates your EPUBs and PDFs on the device.</p></div>
               <div class="stop-detail" data-detail="whisperbook"><p>I built Whisperbook so you can listen to your own EPUBs and PDFs on Android, follow the text as it plays, and give different speakers different voices. The book and its audio stay on the device.</p>
+                <h4>Project status</h4><p>Source code and an Android player screenshot are linked here. Release availability is not documented on this page.</p><h4>Outcome</h4><p>Book import, chapter playback, local narration, and MP3 export in one reading flow.</p><h4>Scope and limits</h4><p>The browser passage is an illustration using your device’s voices; it is not the Android app’s narration engine.</p>
                 <h4>What I built</h4><p>I took it from the reading flow to the audio pipeline: importing books, finding chapters and speakers, assigning local voices, preparing narration, keeping playback in sync with the text, and exporting an MP3.</p><h4>The decision that shaped it</h4><p>Privacy had to hold at the system boundary, so the Android app has no runtime network permission. It prepares finalized audio in small segments: you can start listening to the opening chapter while later ones are still being narrated.</p>
                 <p class="project-tech">Kotlin · Jetpack Compose · Supertonic 3 · Media3</p><a class="source-link" href="https://github.com/chakib-belgaid/whisper-book" target="_blank" rel="noopener noreferrer">Read Whisperbook on GitHub ↗</a>
                 <details class="reading-illustration script-only" data-illustration="whisperbook"><summary>Hear a passage in your browser</summary><p>Hear an excerpt in your browser’s local voice. Whisperbook uses its own on-device narration on Android.</p><div data-reading-widget="whisperbook"></div></details>
@@ -78,8 +80,9 @@
           <article class="reading-project" id="wattch" data-stop="wattch" aria-labelledby="wattch-title">
             <div class="project-copy">
               <div class="stop-card"><p class="eyebrow">Systems and energy</p><h3 id="wattch-title" tabindex="-1">Wattch Core</h3>
-                <p class="reading-lede">Know what you measured before you optimize it.</p></div>
+                <p class="reading-lede">Know what you measured before you optimize it.</p><p class="journey-only project-summary">Linux energy traces for command-line, Python, and VS Code workflows.</p></div>
               <div class="stop-detail" data-detail="wattch"><p>Wattch Core helps developers bring machine energy data into their workflow. A Rust daemon reads Linux hardware counters and makes the raw trace available to command-line, Python, and VS Code tools.</p>
+                <h4>Project status</h4><p>Source code and a VS Code screenshot are linked here. Release availability is not documented on this page.</p><h4>Outcome</h4><p>A measurement daemon and clients that capture, validate, and replay raw energy traces.</p><h4>Scope and limits</h4><p>The screenshot uses synthetic test data. The garden meter estimates this page’s rendering cost; it is not a Wattch hardware measurement.</p>
                 <h4>What I built</h4><p>I built the boundary between privileged measurement and everyday tools: the daemon, typed protocol, capture and validation commands, replayable traces, Python client, and Energy Tests view in VS Code.</p><h4>The decision that shaped it</h4><p>I wanted a result you could inspect later. The daemon collects data; clients interpret it. Raw traces remain replayable, and deterministic test data is marked as synthetic rather than presented as a hardware reading.</p>
                 <p class="project-tech">Rust · Linux RAPL · Python · VS Code</p><a class="source-link" href="https://github.com/chakib-belgaid/wattch-core" target="_blank" rel="noopener noreferrer">Read Wattch Core on GitHub ↗</a>
                 <details class="reading-illustration script-only" data-illustration="wattch"><summary>Measure what drawing this page costs</summary><p>Watch what drawing this page costs your device: CPU and GPU time, and the estimated carbon of that work. Enable the garden preview to measure it.</p><div data-reading-widget="wattch"></div></details>
