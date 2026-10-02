@@ -1,15 +1,83 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex, follow">
-    <meta http-equiv="refresh" content="0; url=/live">
-    <link rel="canonical" href="https://chakib-belgaid.github.io/live">
-    <title>Redirecting…</title>
-    <script>window.location.replace("/live" + window.location.search + window.location.hash);</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0e2b48" />
+    <meta
+      name="description"
+      content="Chakib Belgaid is a product engineer with a Ph.D. in software engineering, building AI products and developer tools with an interest in measuring software energy use."
+    />
+    <title>Chakib Belgaid — Product engineer, Ph.D.</title>
+    <meta property="og:title" content="Chakib Belgaid — Product engineer, Ph.D." /><meta property="og:description" content="Applied AI, developer tools, and software energy measurement. Explore Whisperbook and Wattch Core." /><meta property="og:type" content="website" /><meta name="twitter:card" content="summary_large_image" /><link rel="canonical" href="https://chakib-belgaid.github.io/" /><meta property="og:url" content="https://chakib-belgaid.github.io/" /><meta property="og:image" content="https://chakib-belgaid.github.io/assets/garden-preview.png" /><meta name="twitter:image" content="https://chakib-belgaid.github.io/assets/garden-preview.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="preload"
+      href="/fonts/newsreader-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script type="module" crossorigin src="/assets/index-CFB90aE3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DEyKfef6.css">
   </head>
   <body>
-    <p><a href="/live">Continue to Systems Garden</a></p>
+    <div id="app">
+    <a class="skip-link" href="#intro">Skip to portfolio</a>
+    <header class="masthead">
+      <a class="owner" href="#intro">Chakib Belgaid</a>
+      <nav aria-label="Sections"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <a class="view-switch script-only" href="?view=read" data-view="read">Read portfolio</a>
+    </header>
+    <main id="portfolio" class="portfolio">
+      <section id="intro" class="reading-intro" aria-labelledby="intro-title">
+        <div class="intro-copy"><p class="eyebrow">A living notebook</p>
+          <h1 id="intro-title" tabindex="-1">Chakib Belgaid</h1>
+          <p class="reading-lede">I’m a product engineer with a Ph.D. in software engineering. I build AI products and developer tools, with a long-running interest in how we measure the energy software uses.</p>
+          <div class="entry-actions"><a class="primary-action" href="#work">Selected work</a><a class="script-only" href="?view=garden" data-view="garden">Explore the garden</a></div>
+          <p class="project-shortcuts"><a href="#whisperbook">Whisperbook</a> · <a href="#wattch">Wattch Core</a></p>
+        </div>
+        <div class="garden-preview" id="garden-preview">
+          <div class="preview-frame" id="preview-frame"><img class="static-garden" src="/assets/garden-preview.png" width="1440" height="900" alt="The notebook garden in autumn, with a reading pavilion, energy observatory, atelier, and greenhouse." fetchpriority="low" /></div>
+          <p class="preview-caption">An idea, drawn and brought to life.</p>
+          <div id="preview-tools"></div>
+        </div>
+      </section>
+      <section id="work" class="reading-section" aria-labelledby="work-title">
+        <p class="eyebrow">Selected work</p><h2 id="work-title" tabindex="-1">The boundaries matter</h2>
+        <p>An offline promise should be enforced by the app. An energy claim should lead back to its source data. Those choices shape the systems I build as much as the screens you can see.</p>
+        <nav class="project-shortcuts" aria-label="Selected projects"><a href="#whisperbook">Whisperbook</a><a href="#wattch">Wattch Core</a></nav>
+
+          <article class="reading-project" id="whisperbook" aria-labelledby="whisperbook-title">
+            <div class="project-copy"><p class="eyebrow">Local AI on Android</p><h3 id="whisperbook-title" tabindex="-1">Whisperbook</h3>
+              <p class="reading-lede">A book can stay yours, even when it speaks.</p><p>I built Whisperbook so you can listen to your own EPUBs and PDFs on Android, follow the text as it plays, and give different speakers different voices. The book and its audio stay on the device.</p>
+              <h4>What I built</h4><p>I took it from the reading flow to the audio pipeline: importing books, finding chapters and speakers, assigning local voices, preparing narration, keeping playback in sync with the text, and exporting an MP3.</p><h4>The decision that shaped it</h4><p>Privacy had to hold at the system boundary, so the Android app has no runtime network permission. It prepares finalized audio in small segments: you can start listening to the opening chapter while later ones are still being narrated.</p>
+              <p class="project-tech">Kotlin · Jetpack Compose · Supertonic 3 · Media3</p><a class="source-link" href="https://github.com/chakib-belgaid/whisper-book" target="_blank" rel="noopener noreferrer">Read Whisperbook on GitHub ↗</a>
+              <details class="reading-illustration script-only" data-illustration="whisperbook"><summary>A small browser illustration</summary><p>Hear an excerpt in your browser’s local voice. Whisperbook uses its own on-device narration on Android.</p><div data-reading-widget="whisperbook"></div></details>
+            </div>
+            <figure class="reading-proof proof-whisperbook"><a href="/assets/whisperbook.webp" data-evidence="whisperbook" aria-label="View full screenshot of Whisperbook"><img src="/assets/whisperbook.webp" width="420" height="920" alt="Whisperbook&#39;s Android player showing the current chapter, the narrating voice, and playback controls" loading="lazy" decoding="async" /></a>
+              <figcaption>The player. Books and narration stay on the phone. <a href="/assets/whisperbook.webp" data-evidence="whisperbook">View full screenshot</a></figcaption>
+            </figure>
+          </article>
+          <article class="reading-project" id="wattch" aria-labelledby="wattch-title">
+            <div class="project-copy"><p class="eyebrow">Systems and energy</p><h3 id="wattch-title" tabindex="-1">Wattch Core</h3>
+              <p class="reading-lede">Know what you measured before you optimize it.</p><p>Wattch Core helps developers bring machine energy data into their workflow. A Rust daemon reads Linux hardware counters and makes the raw trace available to command-line, Python, and VS Code tools.</p>
+              <h4>What I built</h4><p>I built the boundary between privileged measurement and everyday tools: the daemon, typed protocol, capture and validation commands, replayable traces, Python client, and Energy Tests view in VS Code.</p><h4>The decision that shaped it</h4><p>I wanted a result you could inspect later. The daemon collects data; clients interpret it. Raw traces remain replayable, and deterministic test data is marked as synthetic rather than presented as a hardware reading.</p>
+              <p class="project-tech">Rust · Linux RAPL · Python · VS Code</p><a class="source-link" href="https://github.com/chakib-belgaid/wattch-core" target="_blank" rel="noopener noreferrer">Read Wattch Core on GitHub ↗</a>
+              <details class="reading-illustration script-only" data-illustration="wattch"><summary>A small browser illustration</summary><p>Watch what drawing this page costs your device: CPU and GPU time, and the estimated carbon of that work. Enable the garden preview to measure it.</p><div data-reading-widget="wattch"></div></details>
+            </div>
+            <figure class="reading-proof proof-wattch"><a href="/assets/wattch.png" data-evidence="wattch" aria-label="View full screenshot of Wattch Core"><img src="/assets/wattch.png" width="1100" height="620" alt="The Energy Tests panel in VS Code listing results from a deterministic test run" loading="lazy" decoding="async" /></a>
+              <figcaption>Energy Tests on a deterministic run. These synthetic values check the workflow, not real energy use. <a href="/assets/wattch.png" data-evidence="wattch">View full screenshot</a></figcaption>
+            </figure>
+          </article>
+      </section>
+      <section class="reading-section" id="about" aria-labelledby="about-title"><p class="eyebrow">Current work and background</p><h2 id="about-title" tabindex="-1">I start with the question</h2><p>Can a phone narrate a book without uploading it? What can an energy trace actually tell us? I work from questions like these through the interface, model or measurement system they need. I like making the whole thing usable, then checking whether it does what I claim.</p>
+        <ol class="career-list"><li><p class="eyebrow">2024–now</p><h3>Lead AI engineer, MCQ Scan</h3><p>I work across agent workflows, model optimization, APIs, interfaces, and deployment to bring applied AI into production use.</p></li><li><p class="eyebrow">2022–2024</p><h3>Research engineer, Qarnot Computing and Inria</h3><p>I helped turn energy-measurement research into working infrastructure, including a PowerAPI deployment across more than 100 computing nodes.</p></li><li><p class="eyebrow">2018–2022</p><h3>Ph.D., University of Lille and Inria</h3><p>I studied how to measure and improve software energy use, grounding the work in experiments rather than assumptions.</p></li><li><p class="eyebrow">2014–2018</p><h3>Co-founder and CTO, Funecs</h3><p>I co-founded a serious-games advertising startup and led its product, engineering, and client delivery.</p></li></ol>
+      </section>
+      <section class="reading-section reading-contact" id="contact" aria-labelledby="contact-title"><p class="eyebrow">Write to me</p><h2 id="contact-title" tabindex="-1">I’d like to hear what you’re building.</h2>
+        <p class="note-email"><a href="mailto:chakib.belgaid@gmail.com">chakib.belgaid@gmail.com</a></p><div class="note-widget script-only" data-contact-read></div>
+        <p class="note-links"><a href="https://github.com/chakib-belgaid" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/chakib-belgaid" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      </section>
+    </main></div>
   </body>
 </html>
