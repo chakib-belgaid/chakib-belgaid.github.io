@@ -31,17 +31,17 @@
         <div class="entry-head"><h3>AI Research Engineer / Lead AI Engineer — MCQ Scan</h3><span class="meta">2024–present · Lille, France</span></div>
         <ul>
           <li>Led a production-facing no-code multi-agent platform from API architecture and frontend integration through deployment.</li>
-          <li>Reduced LLM inference latency by 60% through inference optimization and prompt/tool-flow redesign.</li>
-          <li>Fine-tuned a 7B-class local model to 95% task accuracy and built constrained pipelines with 100% schema-valid outputs.</li>
+          <li>Reduced end-to-end workflow processing time by 60% through a parallelizable dependency graph, routing simpler steps to smaller models, and caching repeated calls (internal measurements).</li>
+          <li>Fine-tuned Llama 3.1 8B with LoRA. Internal evaluation: 97% of requests structurally valid and enum-compliant; 95% semantic accuracy per attribute. Evaluated and integrated LM Format Enforcer with local vLLM inference.</li>
           <li>Built secure AI deployment paths on GCP with Cloud Run, Secret Manager, Artifact Registry, Docker, and GitHub Actions.</li>
-        </ul>
+        <li>Conceived AgentDiet, built its Biscuit authorization demonstrator, and prepared the technical proposal, market analysis, budget and plan; awarded a 2026 Hyper Open X grant funded by France 2030.</li></ul>
       </article>
       <article class="entry">
-        <div class="entry-head"><h3>Software Engineer / Research Engineer — Qarnot Computing / Inria</h3><span class="meta">2022–2024 · France</span></div>
+        <div class="entry-head"><h3>Research Engineer — Inria, ANR project with Qarnot Computing</h3><span class="meta">2022–2024 · France</span></div>
         <ul>
-          <li>Deployed PowerAPI energy-measurement infrastructure across 100+ computing nodes.</li>
+          <li>Contributed to deploying PowerAPI on the infrastructure of Qarnot Computing, the industrial partner of the ANR project.</li>
           <li>Translated research tooling into operational infrastructure with explicit reproducibility and measurement-reliability constraints.</li>
-          <li>Reduced software/container footprint by roughly 300× to improve deployment reproducibility and efficiency.</li>
+          <li>Reduced the PowerAPI binary size by roughly 300× during its industrialization for Qarnot Computing.</li>
         </ul>
       </article>
       <article class="entry">
@@ -52,17 +52,17 @@
         <div class="entry-head"><h3>Co-founder / CTO — Funecs</h3><span class="meta">2014–2018 · Algeria</span></div>
         <ul>
           <li>Led product, architecture, team coordination, and client delivery for a serious-games advertising startup.</li>
-          <li>Won the Ooredoo Startup Challenge 2016 and delivered a nationwide mobile-game campaign that helped drive 300,000 contract updates.</li>
+          <li>Won Ooredoo T-Start in 2014 and delivered AquaRings and Get the 7 in Unity. The 2016 national campaign attracted over 300,000 unique subscriber numbers; led six employees and two interns.</li>
         </ul>
       </article>
     </section>
 
     <section aria-labelledby="projects">
       <h2 id="projects">Selected projects</h2>
-      <div class="grid">
-        <article class="entry"><h3>Whispbook</h3><p>Self-hosted React/FastAPI audiobook studio with local TTS, chapter audio, subtitles, structured speaker-attribution workflows, LoRA adapters, and evaluation reports. <a href="https://github.com/chakib-belgaid/whispbook">Source</a></p></article>
-        <article class="entry"><h3>Wattch</h3><p>Rust daemon and CLI architecture for local energy measurement with RAPL, protobuf, Unix sockets, explicit evidence boundaries, and reproducible workflows. <a href="https://github.com/chakib-belgaid/Wattch">Source</a></p></article>
-        <article class="entry"><h3>pyJoules</h3><p>Python energy-measurement library for Intel RAPL domains, optional Nvidia GPU support, and experiment reporting; 98k total PyPI downloads recorded in the evidence database. <a href="https://github.com/powerapi-ng/pyJoules">Source</a></p></article>
+      <div class="grid"><article class="entry"><h3>BP Log / bp-tracker</h3><p>Offline browser OCR for monitor displays: synthetic-data training, a 10,123-parameter CNN, and plain-JavaScript inference. 91% full readings on 55 development photos; 99.5% digit accuracy on 187 held-out digits from one monitor. <a href="https://github.com/chakib-belgaid/bp-tracker">Source</a></p></article>
+        <article class="entry"><h3>Whispbook</h3><p>Self-hosted React/FastAPI audiobook studio with local TTS, document editing, character voices, chapter audio, subtitles, M4B export, and reproducible generation scripts. Separate from the speaker-attribution experiments. <a href="https://github.com/chakib-belgaid/whispbook">Source</a></p></article>
+        <article class="entry"><h3>Wattch Core</h3><p>Measurement daemon and clients with Linux RAPL, a versioned Unix-socket protocol, replayable traces, and Python/VS Code tools. Rust implementation developed with AI assistance; Rust reading proficiency, Python expertise. <a href="https://github.com/chakib-belgaid/wattch-core">Source</a></p></article>
+        <article class="entry"><h3>pyJoules</h3><p>Developed and maintained pyJoules and co-developed pyRAPL for measuring software energy use; created JouleHunter for Python energy profiling. <a href="https://github.com/powerapi-ng/pyJoules">Source</a></p></article>
       </div>
     </section>
 
@@ -72,14 +72,14 @@
         <p><strong>Product &amp; frontend:</strong> React, TypeScript, workflow design, frontend integration</p>
         <p><strong>Backend &amp; cloud:</strong> Python, FastAPI, Django, Docker, GCP, Cloud Run, GitHub Actions</p>
         <p><strong>Applied AI:</strong> agent workflows, tool calling, structured outputs, local LLMs, LoRA, Hugging Face</p>
-        <p><strong>Systems &amp; measurement:</strong> Rust, Linux, C/C++, Unix sockets, protobuf, RAPL, PowerAPI</p>
+        <p><strong>Systems &amp; measurement:</strong> Linux, RAPL, PowerAPI, Unix sockets; Rust code reading (AI-assisted implementation)</p>
       </div>
     </section>
 
     <section aria-labelledby="education">
       <h2 id="education">Education</h2>
       <p><strong>Ph.D., Software Engineering / Energy-Aware Software</strong> — University of Lille / Inria, 2022</p>
-      <p><strong>Engineering Degree, Computer Science</strong> — École Nationale Supérieure d'Informatique, Algiers, 2016</p>
+      <p><strong>Engineering Degree, Computer Science</strong> — École Nationale Supérieure d'Informatique, Algiers, 2017</p>
     </section>
     <p class="note">Public portfolio edition. Direct contact and profile links are included; phone number is intentionally omitted.</p>
   </main>

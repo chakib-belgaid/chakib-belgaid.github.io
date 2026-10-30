@@ -31,17 +31,17 @@
         <div class="entry-head"><h3>AI Research Engineer / Lead AI Engineer — MCQ Scan</h3><span class="meta">2024–aujourd'hui · Lille</span></div>
         <ul>
           <li>Pilotage d'une plateforme no-code multi-agents, de l'architecture API et l'intégration frontend jusqu'au déploiement.</li>
-          <li>Réduction de 60 % de la latence d'inférence LLM par optimisation et refonte des prompts et appels d'outils.</li>
-          <li>Fine-tuning d'un modèle local de classe 7B à 95 % de précision métier et création de pipelines produisant 100 % de sorties conformes au schéma.</li>
+          <li>Réduction de 60 % du temps de traitement de bout en bout par graphe de dépendances parallélisable, routage vers des modèles plus petits et cache (mesures internes).</li>
+          <li>Fine-tuning LoRA de Llama 3.1 8B. Évaluation interne : 97 % des requêtes structurellement valides et conformes aux énumérations ; 95 % d’exactitude sémantique par attribut. Évaluation et intégration de LM Format Enforcer avec vLLM local.</li>
           <li>Déploiement sécurisé sur GCP avec Cloud Run, Secret Manager, Artifact Registry, Docker et GitHub Actions.</li>
-        </ul>
+        <li>Conception d’AgentDiet, démonstrateur d’autorisation Biscuit, proposition technique, analyse de marché, budget et plan ; subvention Hyper Open X obtenue en 2026, financée par France 2030.</li></ul>
       </article>
       <article class="entry">
-        <div class="entry-head"><h3>Software Engineer / Research Engineer — Qarnot Computing / Inria</h3><span class="meta">2022–2024 · France</span></div>
+        <div class="entry-head"><h3>Ingénieur R&D — Inria, projet ANR avec Qarnot Computing</h3><span class="meta">2022–2024 · France</span></div>
         <ul>
-          <li>Déploiement de l'infrastructure de mesure énergétique PowerAPI sur plus de 100 nœuds de calcul.</li>
+          <li>Contribution à la mise en production de PowerAPI sur l’infrastructure de Qarnot Computing, partenaire industriel du projet ANR chez Inria.</li>
           <li>Passage d'outils de recherche à une infrastructure opérationnelle, avec contraintes explicites de reproductibilité et de fiabilité.</li>
-          <li>Réduction d'environ 300× de l'empreinte logicielle/conteneur pour améliorer reproductibilité et efficacité.</li>
+          <li>Réduction d’environ 300 fois de la taille du binaire PowerAPI dans le cadre de son industrialisation pour Qarnot Computing.</li>
         </ul>
       </article>
       <article class="entry">
@@ -52,17 +52,17 @@
         <div class="entry-head"><h3>Co-fondateur / CTO — Funecs</h3><span class="meta">2014–2018 · Algérie</span></div>
         <ul>
           <li>Direction produit, architecture, coordination d'équipe et livraison client pour une startup de serious games publicitaires.</li>
-          <li>Premier prix Ooredoo Startup Challenge 2016 et campagne mobile nationale ayant contribué à 300 000 mises à jour de contrats.</li>
+          <li>Lauréat Ooredoo T-Start en 2014 ; livraison des jeux Unity AquaRings et Get the 7. La campagne nationale de 2016 a réuni plus de 300 000 numéros d’abonnés uniques ; encadrement de six salariés et deux stagiaires.</li>
         </ul>
       </article>
     </section>
 
     <section aria-labelledby="projets">
       <h2 id="projets">Projets sélectionnés</h2>
-      <div class="grid">
-        <article class="entry"><h3>Whispbook</h3><p>Studio d'audiobook auto-hébergé React/FastAPI avec TTS local, chapitres, sous-titres, attribution structurée des locuteurs, adapters LoRA et rapports d'évaluation. <a href="https://github.com/chakib-belgaid/whispbook">Code source</a></p></article>
-        <article class="entry"><h3>Wattch</h3><p>Architecture daemon/CLI Rust pour la mesure énergétique locale : RAPL, protobuf, sockets Unix, frontières de preuve explicites et workflows reproductibles. <a href="https://github.com/chakib-belgaid/Wattch">Code source</a></p></article>
-        <article class="entry"><h3>pyJoules</h3><p>Bibliothèque Python de mesure énergétique Intel RAPL, prise en charge Nvidia optionnelle et rapports d'expériences ; 98k téléchargements PyPI totaux enregistrés dans la base de preuves. <a href="https://github.com/powerapi-ng/pyJoules">Code source</a></p></article>
+      <div class="grid"><article class="entry"><h3>BP Log / bp-tracker</h3><p>OCR local de cadrans : entraînement synthétique, CNN de 10 123 paramètres et inférence JavaScript. 91 % de lectures complètes sur 55 photos de développement ; 99,5 % sur 187 chiffres de test réservés, issus d’un seul tensiomètre. <a href="https://github.com/chakib-belgaid/bp-tracker">Source</a></p></article>
+        <article class="entry"><h3>Whispbook</h3><p>Studio React/FastAPI auto-hébergé : TTS local, édition de documents, voix par personnage, chapitres, sous-titres, export M4B et scripts reproductibles. Distinct des expérimentations d’attribution des locuteurs. <a href="https://github.com/chakib-belgaid/whispbook">Code source</a></p></article>
+        <article class="entry"><h3>Wattch Core</h3><p>Démon et clients de mesure : RAPL Linux, protocole versionné sur sockets Unix, traces rejouables et outils Python/VS Code. Rust développé avec assistance IA ; lecture du Rust, expertise Python. <a href="https://github.com/chakib-belgaid/wattch-core">Code source</a></p></article>
+        <article class="entry"><h3>pyJoules</h3><p>Développement et maintenance de pyJoules, codéveloppement de pyRAPL et création de JouleHunter pour le profilage énergétique Python. <a href="https://github.com/powerapi-ng/pyJoules">Code source</a></p></article>
       </div>
     </section>
 
@@ -72,14 +72,14 @@
         <p><strong>Produit &amp; frontend :</strong> React, TypeScript, conception de workflows, intégration frontend</p>
         <p><strong>Backend &amp; cloud :</strong> Python, FastAPI, Django, Docker, GCP, Cloud Run, GitHub Actions</p>
         <p><strong>IA appliquée :</strong> agents, appels d'outils, sorties structurées, LLM locaux, LoRA, Hugging Face</p>
-        <p><strong>Systèmes &amp; mesure :</strong> Rust, Linux, C/C++, sockets Unix, protobuf, RAPL, PowerAPI</p>
+        <p><strong>Systèmes &amp; mesure :</strong> Linux, RAPL, PowerAPI, sockets Unix ; lecture du Rust (implémentation assistée par IA)</p>
       </div>
     </section>
 
     <section aria-labelledby="formation">
       <h2 id="formation">Formation</h2>
       <p><strong>Doctorat, génie logiciel / logiciel éco-énergétique</strong> — Université de Lille / Inria, 2022</p>
-      <p><strong>Diplôme d'ingénieur, informatique</strong> — École Nationale Supérieure d'Informatique, Alger, 2016</p>
+      <p><strong>Diplôme d'ingénieur, informatique</strong> — École Nationale Supérieure d'Informatique, Alger, 2017</p>
     </section>
     <p class="note">Édition publique du CV. Les liens de contact et profils sont inclus ; le numéro de téléphone est volontairement omis.</p>
   </main>
